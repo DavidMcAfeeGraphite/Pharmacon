@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF1CE8BD150AC68600C497DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1CE8BC150AC68600C497DC /* UIKit.framework */; };
+		BF1CE8BF150AC68600C497DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1CE8BE150AC68600C497DC /* Foundation.framework */; };
+		BF1CE8C1150AC68600C497DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1CE8C0150AC68600C497DC /* CoreGraphics.framework */; };
+		BF1CE8C7150AC68600C497DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8C5150AC68600C497DC /* InfoPlist.strings */; };
+		BF1CE8C9150AC68600C497DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1CE8C8150AC68600C497DC /* main.m */; };
+		BF1CE8CD150AC68600C497DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1CE8CC150AC68600C497DC /* AppDelegate.m */; };
+		BF1CE8D0150AC68600C497DC /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8CE150AC68600C497DC /* MainStoryboard_iPhone.storyboard */; };
+		BF1CE8D3150AC68600C497DC /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8D1150AC68600C497DC /* MainStoryboard_iPad.storyboard */; };
+		BF1CE8D6150AC68600C497DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1CE8D5150AC68600C497DC /* ViewController.m */; };
+		BF1CE8E4150AC6CB00C497DC /* IMG_0195.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8DC150AC6CB00C497DC /* IMG_0195.png */; };
+		BF1CE8E5150AC6CB00C497DC /* IMG_1656.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8DD150AC6CB00C497DC /* IMG_1656.png */; };
+		BF1CE8E6150AC6CB00C497DC /* IMG_2630.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8DE150AC6CB00C497DC /* IMG_2630.png */; };
+		BF1CE8E7150AC6CB00C497DC /* IMG_2754.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8DF150AC6CB00C497DC /* IMG_2754.png */; };
+		BF1CE8E8150AC6CB00C497DC /* IMG_2986.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8E0150AC6CB00C497DC /* IMG_2986.png */; };
+		BF1CE8E9150AC6CB00C497DC /* IMG_3700.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8E1150AC6CB00C497DC /* IMG_3700.png */; };
+		BF1CE8EA150AC6CB00C497DC /* IMG_4148.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8E2150AC6CB00C497DC /* IMG_4148.png */; };
+		BF1CE8EB150AC6CB00C497DC /* IMG_4439.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8E3150AC6CB00C497DC /* IMG_4439.png */; };
+		BF1CE904150AC75800C497DC /* pharmaconBack.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8ED150AC75800C497DC /* pharmaconBack.png */; };
+		BF1CE905150AC75800C497DC /* pharmaconCategoryDrug.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8EE150AC75800C497DC /* pharmaconCategoryDrug.png */; };
+		BF1CE906150AC75800C497DC /* pharmaconFavouriteFalse.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8EF150AC75800C497DC /* pharmaconFavouriteFalse.png */; };
+		BF1CE907150AC75800C497DC /* pharmaconFavourites.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8F0150AC75800C497DC /* pharmaconFavourites.png */; };
+		BF1CE908150AC75800C497DC /* pharmaconFavouritesHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8F1150AC75800C497DC /* pharmaconFavouritesHeader.png */; };
+		BF1CE909150AC75800C497DC /* pharmaconFavouriteTrue.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8F2150AC75800C497DC /* pharmaconFavouriteTrue.png */; };
+		BF1CE90A150AC75800C497DC /* pharmaconGraphite.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8F3150AC75800C497DC /* pharmaconGraphite.png */; };
+		BF1CE90B150AC75800C497DC /* pharmaconIconColour.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8F4150AC75800C497DC /* pharmaconIconColour.png */; };
+		BF1CE90C150AC75800C497DC /* pharmaconLogoBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8F5150AC75800C497DC /* pharmaconLogoBlack.png */; };
+		BF1CE90D150AC75800C497DC /* pharmaconLogoColour.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8F6150AC75800C497DC /* pharmaconLogoColour.png */; };
+		BF1CE90E150AC75800C497DC /* pharmaconLogoWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8F7150AC75800C497DC /* pharmaconLogoWhite.png */; };
+		BF1CE90F150AC75800C497DC /* pharmaconPharmAdminMobileIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8F8150AC75800C497DC /* pharmaconPharmAdminMobileIcon.png */; };
+		BF1CE910150AC75800C497DC /* pharmaconPharmAdminWebIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8F9150AC75800C497DC /* pharmaconPharmAdminWebIcon.png */; };
+		BF1CE911150AC75800C497DC /* pharmaconPharmAdminWindowsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8FA150AC75800C497DC /* pharmaconPharmAdminWindowsIcon.png */; };
+		BF1CE912150AC75800C497DC /* pharmaconRecents.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8FB150AC75800C497DC /* pharmaconRecents.png */; };
+		BF1CE913150AC75800C497DC /* pharmaconRecentsHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8FC150AC75800C497DC /* pharmaconRecentsHeader.png */; };
+		BF1CE914150AC75800C497DC /* pharmaconSearchBar.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8FD150AC75800C497DC /* pharmaconSearchBar.png */; };
+		BF1CE915150AC75800C497DC /* pharmaconSearchHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8FE150AC75800C497DC /* pharmaconSearchHeader.png */; };
+		BF1CE916150AC75800C497DC /* pharmaconSettings.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8FF150AC75800C497DC /* pharmaconSettings.png */; };
+		BF1CE917150AC75800C497DC /* pharmaconSettingsHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE900150AC75800C497DC /* pharmaconSettingsHeader.png */; };
+		BF1CE918150AC75800C497DC /* pharmaconUpArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE901150AC75800C497DC /* pharmaconUpArrow.png */; };
+		BF1CE919150AC75800C497DC /* pharmaconViewerInfoFrame.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE902150AC75800C497DC /* pharmaconViewerInfoFrame.png */; };
+		BF1CE91A150AC75800C497DC /* pharmaconViewerPronounciationButton.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE903150AC75800C497DC /* pharmaconViewerPronounciationButton.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF1CE8B8150AC68600C497DC /* Pharmacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pharmacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1CE8BC150AC68600C497DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF1CE8BE150AC68600C497DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF1CE8C0150AC68600C497DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF1CE8C4150AC68600C497DC /* Pharmacon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pharmacon-Info.plist"; sourceTree = "<group>"; };
+		BF1CE8C6150AC68600C497DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF1CE8C8150AC68600C497DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF1CE8CA150AC68600C497DC /* Pharmacon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pharmacon-Prefix.pch"; sourceTree = "<group>"; };
+		BF1CE8CB150AC68600C497DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF1CE8CC150AC68600C497DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF1CE8CF150AC68600C497DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		BF1CE8D2150AC68600C497DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		BF1CE8D4150AC68600C497DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF1CE8D5150AC68600C497DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF1CE8DC150AC6CB00C497DC /* IMG_0195.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0195.png; sourceTree = "<group>"; };
+		BF1CE8DD150AC6CB00C497DC /* IMG_1656.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1656.png; sourceTree = "<group>"; };
+		BF1CE8DE150AC6CB00C497DC /* IMG_2630.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_2630.png; sourceTree = "<group>"; };
+		BF1CE8DF150AC6CB00C497DC /* IMG_2754.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_2754.png; sourceTree = "<group>"; };
+		BF1CE8E0150AC6CB00C497DC /* IMG_2986.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_2986.png; sourceTree = "<group>"; };
+		BF1CE8E1150AC6CB00C497DC /* IMG_3700.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_3700.png; sourceTree = "<group>"; };
+		BF1CE8E2150AC6CB00C497DC /* IMG_4148.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_4148.png; sourceTree = "<group>"; };
+		BF1CE8E3150AC6CB00C497DC /* IMG_4439.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_4439.png; sourceTree = "<group>"; };
+		BF1CE8ED150AC75800C497DC /* pharmaconBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconBack.png; sourceTree = "<group>"; };
+		BF1CE8EE150AC75800C497DC /* pharmaconCategoryDrug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconCategoryDrug.png; sourceTree = "<group>"; };
+		BF1CE8EF150AC75800C497DC /* pharmaconFavouriteFalse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconFavouriteFalse.png; sourceTree = "<group>"; };
+		BF1CE8F0150AC75800C497DC /* pharmaconFavourites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconFavourites.png; sourceTree = "<group>"; };
+		BF1CE8F1150AC75800C497DC /* pharmaconFavouritesHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconFavouritesHeader.png; sourceTree = "<group>"; };
+		BF1CE8F2150AC75800C497DC /* pharmaconFavouriteTrue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconFavouriteTrue.png; sourceTree = "<group>"; };
+		BF1CE8F3150AC75800C497DC /* pharmaconGraphite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconGraphite.png; sourceTree = "<group>"; };
+		BF1CE8F4150AC75800C497DC /* pharmaconIconColour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconIconColour.png; sourceTree = "<group>"; };
+		BF1CE8F5150AC75800C497DC /* pharmaconLogoBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconLogoBlack.png; sourceTree = "<group>"; };
+		BF1CE8F6150AC75800C497DC /* pharmaconLogoColour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconLogoColour.png; sourceTree = "<group>"; };
+		BF1CE8F7150AC75800C497DC /* pharmaconLogoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconLogoWhite.png; sourceTree = "<group>"; };
+		BF1CE8F8150AC75800C497DC /* pharmaconPharmAdminMobileIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconPharmAdminMobileIcon.png; sourceTree = "<group>"; };
+		BF1CE8F9150AC75800C497DC /* pharmaconPharmAdminWebIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconPharmAdminWebIcon.png; sourceTree = "<group>"; };
+		BF1CE8FA150AC75800C497DC /* pharmaconPharmAdminWindowsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconPharmAdminWindowsIcon.png; sourceTree = "<group>"; };
+		BF1CE8FB150AC75800C497DC /* pharmaconRecents.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconRecents.png; sourceTree = "<group>"; };
+		BF1CE8FC150AC75800C497DC /* pharmaconRecentsHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconRecentsHeader.png; sourceTree = "<group>"; };
+		BF1CE8FD150AC75800C497DC /* pharmaconSearchBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconSearchBar.png; sourceTree = "<group>"; };
+		BF1CE8FE150AC75800C497DC /* pharmaconSearchHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconSearchHeader.png; sourceTree = "<group>"; };
+		BF1CE8FF150AC75800C497DC /* pharmaconSettings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconSettings.png; sourceTree = "<group>"; };
+		BF1CE900150AC75800C497DC /* pharmaconSettingsHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconSettingsHeader.png; sourceTree = "<group>"; };
+		BF1CE901150AC75800C497DC /* pharmaconUpArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconUpArrow.png; sourceTree = "<group>"; };
+		BF1CE902150AC75800C497DC /* pharmaconViewerInfoFrame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconViewerInfoFrame.png; sourceTree = "<group>"; };
+		BF1CE903150AC75800C497DC /* pharmaconViewerPronounciationButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconViewerPronounciationButton.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF1CE8B5150AC68600C497DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1CE8BD150AC68600C497DC /* UIKit.framework in Frameworks */,
+				BF1CE8BF150AC68600C497DC /* Foundation.framework in Frameworks */,
+				BF1CE8C1150AC68600C497DC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF1CE8AD150AC68600C497DC = {
+			isa = PBXGroup;
+			children = (
+				BF1CE8C2150AC68600C497DC /* Pharmacon */,
+				BF1CE8BB150AC68600C497DC /* Frameworks */,
+				BF1CE8B9150AC68600C497DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF1CE8B9150AC68600C497DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF1CE8B8150AC68600C497DC /* Pharmacon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF1CE8BB150AC68600C497DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF1CE8BC150AC68600C497DC /* UIKit.framework */,
+				BF1CE8BE150AC68600C497DC /* Foundation.framework */,
+				BF1CE8C0150AC68600C497DC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF1CE8C2150AC68600C497DC /* Pharmacon */ = {
+			isa = PBXGroup;
+			children = (
+				BF1CE8EC150AC75800C497DC /* Pharmacon GRAPHICS PACK v1.0 */,
+				BF1CE8CB150AC68600C497DC /* AppDelegate.h */,
+				BF1CE8CC150AC68600C497DC /* AppDelegate.m */,
+				BF1CE8CE150AC68600C497DC /* MainStoryboard_iPhone.storyboard */,
+				BF1CE8D1150AC68600C497DC /* MainStoryboard_iPad.storyboard */,
+				BF1CE8D4150AC68600C497DC /* ViewController.h */,
+				BF1CE8D5150AC68600C497DC /* ViewController.m */,
+				BF1CE8DC150AC6CB00C497DC /* IMG_0195.png */,
+				BF1CE8DD150AC6CB00C497DC /* IMG_1656.png */,
+				BF1CE8DE150AC6CB00C497DC /* IMG_2630.png */,
+				BF1CE8DF150AC6CB00C497DC /* IMG_2754.png */,
+				BF1CE8E0150AC6CB00C497DC /* IMG_2986.png */,
+				BF1CE8E1150AC6CB00C497DC /* IMG_3700.png */,
+				BF1CE8E2150AC6CB00C497DC /* IMG_4148.png */,
+				BF1CE8E3150AC6CB00C497DC /* IMG_4439.png */,
+				BF1CE8C3150AC68600C497DC /* Supporting Files */,
+			);
+			path = Pharmacon;
+			sourceTree = "<group>";
+		};
+		BF1CE8C3150AC68600C497DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF1CE8C4150AC68600C497DC /* Pharmacon-Info.plist */,
+				BF1CE8C5150AC68600C497DC /* InfoPlist.strings */,
+				BF1CE8C8150AC68600C497DC /* main.m */,
+				BF1CE8CA150AC68600C497DC /* Pharmacon-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF1CE8EC150AC75800C497DC /* Pharmacon GRAPHICS PACK v1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				BF1CE8ED150AC75800C497DC /* pharmaconBack.png */,
+				BF1CE8EE150AC75800C497DC /* pharmaconCategoryDrug.png */,
+				BF1CE8EF150AC75800C497DC /* pharmaconFavouriteFalse.png */,
+				BF1CE8F0150AC75800C497DC /* pharmaconFavourites.png */,
+				BF1CE8F1150AC75800C497DC /* pharmaconFavouritesHeader.png */,
+				BF1CE8F2150AC75800C497DC /* pharmaconFavouriteTrue.png */,
+				BF1CE8F3150AC75800C497DC /* pharmaconGraphite.png */,
+				BF1CE8F4150AC75800C497DC /* pharmaconIconColour.png */,
+				BF1CE8F5150AC75800C497DC /* pharmaconLogoBlack.png */,
+				BF1CE8F6150AC75800C497DC /* pharmaconLogoColour.png */,
+				BF1CE8F7150AC75800C497DC /* pharmaconLogoWhite.png */,
+				BF1CE8F8150AC75800C497DC /* pharmaconPharmAdminMobileIcon.png */,
+				BF1CE8F9150AC75800C497DC /* pharmaconPharmAdminWebIcon.png */,
+				BF1CE8FA150AC75800C497DC /* pharmaconPharmAdminWindowsIcon.png */,
+				BF1CE8FB150AC75800C497DC /* pharmaconRecents.png */,
+				BF1CE8FC150AC75800C497DC /* pharmaconRecentsHeader.png */,
+				BF1CE8FD150AC75800C497DC /* pharmaconSearchBar.png */,
+				BF1CE8FE150AC75800C497DC /* pharmaconSearchHeader.png */,
+				BF1CE8FF150AC75800C497DC /* pharmaconSettings.png */,
+				BF1CE900150AC75800C497DC /* pharmaconSettingsHeader.png */,
+				BF1CE901150AC75800C497DC /* pharmaconUpArrow.png */,
+				BF1CE902150AC75800C497DC /* pharmaconViewerInfoFrame.png */,
+				BF1CE903150AC75800C497DC /* pharmaconViewerPronounciationButton.png */,
+			);
+			path = "Pharmacon GRAPHICS PACK v1.0";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF1CE8B7150AC68600C497DC /* Pharmacon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF1CE8D9150AC68600C497DC /* Build configuration list for PBXNativeTarget "Pharmacon" */;
+			buildPhases = (
+				BF1CE8B4150AC68600C497DC /* Sources */,
+				BF1CE8B5150AC68600C497DC /* Frameworks */,
+				BF1CE8B6150AC68600C497DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pharmacon;
+			productName = Pharmacon;
+			productReference = BF1CE8B8150AC68600C497DC /* Pharmacon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF1CE8AF150AC68600C497DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = BF1CE8B2150AC68600C497DC /* Build configuration list for PBXProject "Pharmacon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF1CE8AD150AC68600C497DC;
+			productRefGroup = BF1CE8B9150AC68600C497DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF1CE8B7150AC68600C497DC /* Pharmacon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF1CE8B6150AC68600C497DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1CE8C7150AC68600C497DC /* InfoPlist.strings in Resources */,
+				BF1CE8D0150AC68600C497DC /* MainStoryboard_iPhone.storyboard in Resources */,
+				BF1CE8D3150AC68600C497DC /* MainStoryboard_iPad.storyboard in Resources */,
+				BF1CE8E4150AC6CB00C497DC /* IMG_0195.png in Resources */,
+				BF1CE8E5150AC6CB00C497DC /* IMG_1656.png in Resources */,
+				BF1CE8E6150AC6CB00C497DC /* IMG_2630.png in Resources */,
+				BF1CE8E7150AC6CB00C497DC /* IMG_2754.png in Resources */,
+				BF1CE8E8150AC6CB00C497DC /* IMG_2986.png in Resources */,
+				BF1CE8E9150AC6CB00C497DC /* IMG_3700.png in Resources */,
+				BF1CE8EA150AC6CB00C497DC /* IMG_4148.png in Resources */,
+				BF1CE8EB150AC6CB00C497DC /* IMG_4439.png in Resources */,
+				BF1CE904150AC75800C497DC /* pharmaconBack.png in Resources */,
+				BF1CE905150AC75800C497DC /* pharmaconCategoryDrug.png in Resources */,
+				BF1CE906150AC75800C497DC /* pharmaconFavouriteFalse.png in Resources */,
+				BF1CE907150AC75800C497DC /* pharmaconFavourites.png in Resources */,
+				BF1CE908150AC75800C497DC /* pharmaconFavouritesHeader.png in Resources */,
+				BF1CE909150AC75800C497DC /* pharmaconFavouriteTrue.png in Resources */,
+				BF1CE90A150AC75800C497DC /* pharmaconGraphite.png in Resources */,
+				BF1CE90B150AC75800C497DC /* pharmaconIconColour.png in Resources */,
+				BF1CE90C150AC75800C497DC /* pharmaconLogoBlack.png in Resources */,
+				BF1CE90D150AC75800C497DC /* pharmaconLogoColour.png in Resources */,
+				BF1CE90E150AC75800C497DC /* pharmaconLogoWhite.png in Resources */,
+				BF1CE90F150AC75800C497DC /* pharmaconPharmAdminMobileIcon.png in Resources */,
+				BF1CE910150AC75800C497DC /* pharmaconPharmAdminWebIcon.png in Resources */,
+				BF1CE911150AC75800C497DC /* pharmaconPharmAdminWindowsIcon.png in Resources */,
+				BF1CE912150AC75800C497DC /* pharmaconRecents.png in Resources */,
+				BF1CE913150AC75800C497DC /* pharmaconRecentsHeader.png in Resources */,
+				BF1CE914150AC75800C497DC /* pharmaconSearchBar.png in Resources */,
+				BF1CE915150AC75800C497DC /* pharmaconSearchHeader.png in Resources */,
+				BF1CE916150AC75800C497DC /* pharmaconSettings.png in Resources */,
+				BF1CE917150AC75800C497DC /* pharmaconSettingsHeader.png in Resources */,
+				BF1CE918150AC75800C497DC /* pharmaconUpArrow.png in Resources */,
+				BF1CE919150AC75800C497DC /* pharmaconViewerInfoFrame.png in Resources */,
+				BF1CE91A150AC75800C497DC /* pharmaconViewerPronounciationButton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF1CE8B4150AC68600C497DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1CE8C9150AC68600C497DC /* main.m in Sources */,
+				BF1CE8CD150AC68600C497DC /* AppDelegate.m in Sources */,
+				BF1CE8D6150AC68600C497DC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF1CE8C5150AC68600C497DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF1CE8C6150AC68600C497DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BF1CE8CE150AC68600C497DC /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF1CE8CF150AC68600C497DC /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		BF1CE8D1150AC68600C497DC /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF1CE8D2150AC68600C497DC /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF1CE8D7150AC68600C497DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF1CE8D8150AC68600C497DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF1CE8DA150AC68600C497DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pharmacon/Pharmacon-Prefix.pch";
+				INFOPLIST_FILE = "Pharmacon/Pharmacon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BF1CE8DB150AC68600C497DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pharmacon/Pharmacon-Prefix.pch";
+				INFOPLIST_FILE = "Pharmacon/Pharmacon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF1CE8B2150AC68600C497DC /* Build configuration list for PBXProject "Pharmacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1CE8D7150AC68600C497DC /* Debug */,
+				BF1CE8D8150AC68600C497DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF1CE8D9150AC68600C497DC /* Build configuration list for PBXNativeTarget "Pharmacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1CE8DA150AC68600C497DC /* Debug */,
+				BF1CE8DB150AC68600C497DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF1CE8AF150AC68600C497DC /* Project object */;
+}
