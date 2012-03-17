@@ -18,13 +18,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    
-    // create the content view controller using the LogoExpandingViewController for no particular reason
-    self.contentViewController = [[LogoExpandingViewController alloc] initWithNibName:@"LogoExpandingViewController" bundle:nil];
-    
+ 
     // create the menuViewController also in the app delegate so we can swap it in as the
     // windows root view controller whenever its required
-    self.contentViewController = [[MenuViewController alloc] initWithNibName:@"MenuViewController" bundle:nil];
+    self.contentViewController = [[creditsViewController alloc] initWithNibName:@"creditsViewController" bundle:nil];
     
     // set the rootViewController to the contentViewController
     self.window.rootViewController = self.contentViewController;
@@ -55,14 +52,7 @@
     self.window.rootViewController = self.contentViewController;
 }
 
-
-
--(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    // Override point for customization after application launch.
-    return YES;
-}
-							
+		
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
