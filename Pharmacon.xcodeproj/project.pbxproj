@@ -47,6 +47,7 @@
 		BF1CE918150AC75800C497DC /* pharmaconUpArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE901150AC75800C497DC /* pharmaconUpArrow.png */; };
 		BF1CE919150AC75800C497DC /* pharmaconViewerInfoFrame.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE902150AC75800C497DC /* pharmaconViewerInfoFrame.png */; };
 		BF1CE91A150AC75800C497DC /* pharmaconViewerPronounciationButton.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE903150AC75800C497DC /* pharmaconViewerPronounciationButton.png */; };
+		BF9B13BC15140C9100961A2E /* Credits.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9B13BB15140C9100961A2E /* Credits.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +96,8 @@
 		BF1CE901150AC75800C497DC /* pharmaconUpArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconUpArrow.png; sourceTree = "<group>"; };
 		BF1CE902150AC75800C497DC /* pharmaconViewerInfoFrame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconViewerInfoFrame.png; sourceTree = "<group>"; };
 		BF1CE903150AC75800C497DC /* pharmaconViewerPronounciationButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconViewerPronounciationButton.png; sourceTree = "<group>"; };
+		BF9B13BA15140C9100961A2E /* Credits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Credits.h; sourceTree = "<group>"; };
+		BF9B13BB15140C9100961A2E /* Credits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Credits.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 		BF1CE8AD150AC68600C497DC = {
 			isa = PBXGroup;
 			children = (
+				BF9B13BA15140C9100961A2E /* Credits.h */,
+				BF9B13BB15140C9100961A2E /* Credits.m */,
 				BF1CE8C2150AC68600C497DC /* Pharmacon */,
 				BF1CE8BB150AC68600C497DC /* Frameworks */,
 				BF1CE8B9150AC68600C497DC /* Products */,
@@ -299,6 +304,7 @@
 				BF1CE8C9150AC68600C497DC /* main.m in Sources */,
 				BF1CE8CD150AC68600C497DC /* AppDelegate.m in Sources */,
 				BF1CE8D6150AC68600C497DC /* ViewController.m in Sources */,
+				BF9B13BC15140C9100961A2E /* Credits.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +388,7 @@
 		BF1CE8DA150AC68600C497DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pharmacon/Pharmacon-Prefix.pch";
 				INFOPLIST_FILE = "Pharmacon/Pharmacon-Info.plist";
@@ -393,6 +400,7 @@
 		BF1CE8DB150AC68600C497DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pharmacon/Pharmacon-Prefix.pch";
 				INFOPLIST_FILE = "Pharmacon/Pharmacon-Info.plist";
@@ -420,6 +428,7 @@
 				BF1CE8DB150AC68600C497DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
