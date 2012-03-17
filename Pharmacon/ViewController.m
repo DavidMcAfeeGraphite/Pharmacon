@@ -18,8 +18,19 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-}
+    
+    BOOL TandC = [[NSUserDefaults standardUserDefaults]boolForKey:@"RanBefore"];
+    if(!TandC) {
+        UIAlertView *alert = [[UIAlertView alloc]
+                              initWithTitle:@"Pharmacon Terms and Guidelines" message:@"" delegate:self cancelButtonTitle:@"I agree" otherButtonTitles: nil];
+        [alert show];
+        [alert release];
+        [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"RanBefore"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        
+    }
 
+}
 - (void)viewDidUnload
 {
     [super viewDidUnload];
@@ -34,5 +45,4 @@
         return YES;
     }
 }
-
-@end
+    @end
