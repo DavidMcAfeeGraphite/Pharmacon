@@ -18,6 +18,4 @@
 
 - (void)showSideMenu;
 - (void)hideSideMenu;
-
-
 @end
