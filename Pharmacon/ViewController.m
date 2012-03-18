@@ -27,6 +27,7 @@
         [alert release];
         [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"RanBefore"];
         [[NSUserDefaults standardUserDefaults] synchronize];
+
         
     }
 
