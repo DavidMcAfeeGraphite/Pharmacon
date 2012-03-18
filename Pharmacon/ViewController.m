@@ -22,7 +22,7 @@
     BOOL TandC = [[NSUserDefaults standardUserDefaults]boolForKey:@"RanBefore"];
     if(!TandC) {
         UIAlertView *alert = [[UIAlertView alloc]
-                              initWithTitle:@"Pharmacon Terms and Guidelines" message:@"" delegate:self cancelButtonTitle:@"I agree" otherButtonTitles: nil];
+                              initWithTitle:@"Pharmacon Terms and Guidelines" message:@"YOU BETTER NOT BLOODY COPY OUR APP!" delegate:self cancelButtonTitle:@"I agree" otherButtonTitles: nil];
         [alert show];
         [alert release];
         [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"RanBefore"];

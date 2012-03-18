@@ -47,6 +47,7 @@
 		BF1CE918150AC75800C497DC /* pharmaconUpArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE901150AC75800C497DC /* pharmaconUpArrow.png */; };
 		BF1CE919150AC75800C497DC /* pharmaconViewerInfoFrame.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE902150AC75800C497DC /* pharmaconViewerInfoFrame.png */; };
 		BF1CE91A150AC75800C497DC /* pharmaconViewerPronounciationButton.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE903150AC75800C497DC /* pharmaconViewerPronounciationButton.png */; };
+		BF4AEBFD1515E0E9001A3780 /* About.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4AEBFC1515E0E9001A3780 /* About.m */; };
 		BF81D83015157AC30034B70B /* Results.m in Sources */ = {isa = PBXBuildFile; fileRef = BF81D82F15157AC30034B70B /* Results.m */; };
 		BF81D83315157AFE0034B70B /* TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF81D83215157AFE0034B70B /* TableView.m */; };
 /* End PBXBuildFile section */
@@ -97,6 +98,8 @@
 		BF1CE901150AC75800C497DC /* pharmaconUpArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconUpArrow.png; sourceTree = "<group>"; };
 		BF1CE902150AC75800C497DC /* pharmaconViewerInfoFrame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconViewerInfoFrame.png; sourceTree = "<group>"; };
 		BF1CE903150AC75800C497DC /* pharmaconViewerPronounciationButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmaconViewerPronounciationButton.png; sourceTree = "<group>"; };
+		BF4AEBFB1515E0E9001A3780 /* About.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = About.h; sourceTree = "<group>"; };
+		BF4AEBFC1515E0E9001A3780 /* About.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = About.m; sourceTree = "<group>"; };
 		BF81D82E15157AC30034B70B /* Results.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Results.h; path = ../Results.h; sourceTree = "<group>"; };
 		BF81D82F15157AC30034B70B /* Results.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Results.m; path = ../Results.m; sourceTree = "<group>"; };
 		BF81D83115157AFE0034B70B /* TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableView.h; sourceTree = "<group>"; };
@@ -158,6 +161,8 @@
 				BF81D82F15157AC30034B70B /* Results.m */,
 				BF81D83115157AFE0034B70B /* TableView.h */,
 				BF81D83215157AFE0034B70B /* TableView.m */,
+				BF4AEBFB1515E0E9001A3780 /* About.h */,
+				BF4AEBFC1515E0E9001A3780 /* About.m */,
 				BF1CE8DC150AC6CB00C497DC /* IMG_0195.png */,
 				BF1CE8DD150AC6CB00C497DC /* IMG_1656.png */,
 				BF1CE8DE150AC6CB00C497DC /* IMG_2630.png */,
@@ -311,6 +316,7 @@
 				BF1CE8D6150AC68600C497DC /* ViewController.m in Sources */,
 				BF81D83015157AC30034B70B /* Results.m in Sources */,
 				BF81D83315157AFE0034B70B /* TableView.m in Sources */,
+				BF4AEBFD1515E0E9001A3780 /* About.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
