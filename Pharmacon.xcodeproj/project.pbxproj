@@ -49,7 +49,6 @@
 		BF1CE91A150AC75800C497DC /* pharmaconViewerPronounciationButton.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE903150AC75800C497DC /* pharmaconViewerPronounciationButton.png */; };
 		BF81D83015157AC30034B70B /* Results.m in Sources */ = {isa = PBXBuildFile; fileRef = BF81D82F15157AC30034B70B /* Results.m */; };
 		BF81D83315157AFE0034B70B /* TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF81D83215157AFE0034B70B /* TableView.m */; };
-		BF9B13BC15140C9100961A2E /* Credits.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9B13BB15140C9100961A2E /* Credits.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -102,8 +101,6 @@
 		BF81D82F15157AC30034B70B /* Results.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Results.m; path = ../Results.m; sourceTree = "<group>"; };
 		BF81D83115157AFE0034B70B /* TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableView.h; sourceTree = "<group>"; };
 		BF81D83215157AFE0034B70B /* TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableView.m; sourceTree = "<group>"; };
-		BF9B13BA15140C9100961A2E /* Credits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Credits.h; sourceTree = "<group>"; };
-		BF9B13BB15140C9100961A2E /* Credits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Credits.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +120,6 @@
 		BF1CE8AD150AC68600C497DC = {
 			isa = PBXGroup;
 			children = (
-				BF9B13BA15140C9100961A2E /* Credits.h */,
-				BF9B13BB15140C9100961A2E /* Credits.m */,
 				BF1CE8C2150AC68600C497DC /* Pharmacon */,
 				BF1CE8BB150AC68600C497DC /* Frameworks */,
 				BF1CE8B9150AC68600C497DC /* Products */,
@@ -314,7 +309,6 @@
 				BF1CE8C9150AC68600C497DC /* main.m in Sources */,
 				BF1CE8CD150AC68600C497DC /* AppDelegate.m in Sources */,
 				BF1CE8D6150AC68600C497DC /* ViewController.m in Sources */,
-				BF9B13BC15140C9100961A2E /* Credits.m in Sources */,
 				BF81D83015157AC30034B70B /* Results.m in Sources */,
 				BF81D83315157AFE0034B70B /* TableView.m in Sources */,
 			);
