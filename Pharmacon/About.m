@@ -38,22 +38,18 @@
     [[NSUserDefaults standardUserDefaults] synchronize];
 
 }
+    
 
+}
 - (void) alertView:(UIAlertView *) alertView clickedButtonAtIndex:(NSInteger) index {
     if(index == 1) {
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.itunes.apple.com/us/app/nerdcode-pro"]];
-    }
-}
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"Example URL"]];
+    }    }                                           
 
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-}
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
-}
+
 @end
