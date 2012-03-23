@@ -50,6 +50,8 @@
 		BF4AEBFD1515E0E9001A3780 /* About.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4AEBFC1515E0E9001A3780 /* About.m */; };
 		BF81D83015157AC30034B70B /* Results.m in Sources */ = {isa = PBXBuildFile; fileRef = BF81D82F15157AC30034B70B /* Results.m */; };
 		BF81D83315157AFE0034B70B /* TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF81D83215157AFE0034B70B /* TableView.m */; };
+		BFA32A83151C8179006426B4 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA32A82151C8179006426B4 /* MediaPlayer.framework */; };
+		BFA32A8A151D30FF006426B4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA32A89151D30FF006426B4 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,6 +106,8 @@
 		BF81D82F15157AC30034B70B /* Results.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Results.m; path = ../Results.m; sourceTree = "<group>"; };
 		BF81D83115157AFE0034B70B /* TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableView.h; sourceTree = "<group>"; };
 		BF81D83215157AFE0034B70B /* TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableView.m; sourceTree = "<group>"; };
+		BFA32A82151C8179006426B4 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		BFA32A89151D30FF006426B4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA32A8A151D30FF006426B4 /* AVFoundation.framework in Frameworks */,
+				BFA32A83151C8179006426B4 /* MediaPlayer.framework in Frameworks */,
 				BF1CE8BD150AC68600C497DC /* UIKit.framework in Frameworks */,
 				BF1CE8BF150AC68600C497DC /* Foundation.framework in Frameworks */,
 				BF1CE8C1150AC68600C497DC /* CoreGraphics.framework in Frameworks */,
@@ -123,6 +129,8 @@
 		BF1CE8AD150AC68600C497DC = {
 			isa = PBXGroup;
 			children = (
+				BFA32A89151D30FF006426B4 /* AVFoundation.framework */,
+				BFA32A82151C8179006426B4 /* MediaPlayer.framework */,
 				BF1CE8C2150AC68600C497DC /* Pharmacon */,
 				BF1CE8BB150AC68600C497DC /* Frameworks */,
 				BF1CE8B9150AC68600C497DC /* Products */,
