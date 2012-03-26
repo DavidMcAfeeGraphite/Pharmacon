@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF1B71A015203E5C002AABD8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1B719F15203E5C002AABD8 /* QuartzCore.framework */; };
 		BF1CE8BD150AC68600C497DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1CE8BC150AC68600C497DC /* UIKit.framework */; };
 		BF1CE8BF150AC68600C497DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1CE8BE150AC68600C497DC /* Foundation.framework */; };
 		BF1CE8C1150AC68600C497DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1CE8C0150AC68600C497DC /* CoreGraphics.framework */; };
@@ -55,6 +56,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF1B719F15203E5C002AABD8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		BF1CE8B8150AC68600C497DC /* Pharmacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pharmacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1CE8BC150AC68600C497DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BF1CE8BE150AC68600C497DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -115,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF1B71A015203E5C002AABD8 /* QuartzCore.framework in Frameworks */,
 				BFA32A8A151D30FF006426B4 /* AVFoundation.framework in Frameworks */,
 				BFA32A83151C8179006426B4 /* MediaPlayer.framework in Frameworks */,
 				BF1CE8BD150AC68600C497DC /* UIKit.framework in Frameworks */,
@@ -129,8 +132,6 @@
 		BF1CE8AD150AC68600C497DC = {
 			isa = PBXGroup;
 			children = (
-				BFA32A89151D30FF006426B4 /* AVFoundation.framework */,
-				BFA32A82151C8179006426B4 /* MediaPlayer.framework */,
 				BF1CE8C2150AC68600C497DC /* Pharmacon */,
 				BF1CE8BB150AC68600C497DC /* Frameworks */,
 				BF1CE8B9150AC68600C497DC /* Products */,
@@ -148,6 +149,9 @@
 		BF1CE8BB150AC68600C497DC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BFA32A89151D30FF006426B4 /* AVFoundation.framework */,
+				BFA32A82151C8179006426B4 /* MediaPlayer.framework */,
+				BF1B719F15203E5C002AABD8 /* QuartzCore.framework */,
 				BF1CE8BC150AC68600C497DC /* UIKit.framework */,
 				BF1CE8BE150AC68600C497DC /* Foundation.framework */,
 				BF1CE8C0150AC68600C497DC /* CoreGraphics.framework */,
@@ -412,6 +416,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pharmacon/Pharmacon-Prefix.pch";
 				INFOPLIST_FILE = "Pharmacon/Pharmacon-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -424,6 +429,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pharmacon/Pharmacon-Prefix.pch";
 				INFOPLIST_FILE = "Pharmacon/Pharmacon-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

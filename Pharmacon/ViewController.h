@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    
+    IBOutlet UIButton *button;
+    ViewController *myViewController;
+    
+}
+-(IBAction)buttonPressed;
 
 @end

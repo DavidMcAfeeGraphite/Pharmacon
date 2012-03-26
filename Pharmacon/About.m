@@ -3,10 +3,11 @@
 //  Pharmacon
 //
 //  Created by Sam Vale on 18/03/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 GRAPHITE All rights reserved.
 //
 
 #import "About.h"
+#import "QuartzCore/QuartzCore.h"
 
 @interface About ()
 
