@@ -74,6 +74,7 @@
                                 <rect key="frame" x="20" y="88" width="267" height="329"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="separatorColor" red="0.2117647231" green="0.56078433989999998" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" textLabel="nr1-q6-LuZ" style="IBUITableViewCellStyleDefault" id="jvm-Oz-e4Y">
                                         <rect key="frame" x="0.0" y="22" width="267" height="44"/>
@@ -309,7 +310,7 @@
         <scene sceneID="gE5-I4-vCN">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ieO-I2-RH7" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="SJo-Ca-qLZ" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="h" id="SJo-Ca-qLZ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bbj-MF-EE6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -326,7 +327,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="2" kind="modal" modalTransitionStyle="crossDissolve" id="9I3-dL-TH8"/>
+                                    <segue destination="2" kind="modal" modalTransitionStyle="crossDissolve" id="aWc-X7-diy"/>
                                 </connections>
                             </button>
                             <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="W9m-WV-ds8">
@@ -341,8 +342,8 @@
                                 <rect key="frame" x="28" y="133" width="266" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
-                                    <segment title=""/>
-                                    <segment title="Second"/>
+                                    <segment title="AUS"/>
+                                    <segment title="America"/>
                                 </segments>
                             </segmentedControl>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="pharmaconSettingsHeader.png" id="eLG-PD-x9b">
@@ -432,12 +433,28 @@
         <image name="pharmaconSettings.png" width="59" height="62"/>
         <image name="pharmaconSettingsHeader.png" width="537" height="107"/>
     </resources>
+    <classes>
+        <class className="About" superclassName="UINavigationController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/About.h"/>
+        </class>
+        <class className="Credits" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/Credits.h"/>
+        </class>
+        <class className="TableView" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TableView.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="buttonPressed"/>
+                <relationship kind="outlet" name="Sam" candidateClass="UIView"/>
+                <relationship kind="outlet" name="button" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <nil key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
-    <inferredMetricsTieBreakers>
-        <segue reference="lVz-fm-kQA"/>
-    </inferredMetricsTieBreakers>
 </document>

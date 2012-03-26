@@ -14,7 +14,7 @@
     IBOutlet UIButton *button;
     ViewController *myViewController;
    IBOutlet UIView *Sam;
-
+    UIImageView *myImageView;
 }
 -(IBAction)buttonPressed;
 

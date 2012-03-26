@@ -25,7 +25,12 @@
 	
 	// remove the current view and replace with myView1
 	[currentView removeFromSuperview];
-	[theWindow addSubview:Sam];
+    [theWindow addSubview:myImageView];
+     UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"IMG_0195.png"]];
+     myImageView = imageView;
+     myImageView.frame = CGRectMake(50,50,100,100);
+    
+     
 	
 	// set up an animation for the transition between the views
 	CATransition *animation = [CATransition animation];
@@ -65,6 +70,7 @@
         [[NSUserDefaults standardUserDefaults] synchronize];
         
         exit(0);
+        [alertView release];
         
     }
     else if (buttonIndex == 1)
@@ -72,6 +78,8 @@
         //reset clicked
     }
 }
+
+
 - (void)viewDidUnload
 {
     [super viewDidUnload];
