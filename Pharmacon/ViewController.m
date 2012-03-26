@@ -2,8 +2,8 @@
 //  ViewController.m
 //  Pharmacon
 //
-//  Created by Sam Vale on 10/03/12.
-//  Copyright (c) 2012 __GRAPHITE__. All rights reserved.
+//  Created by GRAPHITE on 10/03/12.
+//  Copyright (c) 2012 GRAPHITE All rights reserved.
 //
 
 #import "ViewController.h"
@@ -16,7 +16,7 @@
 
 @implementation ViewController
 
--(IBAction)buttonPressed;{
+-(IBAction)GRAPHITEBUTTON;{
     
     // get the view that's currently showing
 	UIView *currentView = self.view;
@@ -37,7 +37,6 @@
 	[animation setDuration:0.5];
 	[animation setType:kCATransitionPush];
 	[animation setSubtype:kCATransitionFromLeft];
-    [animation setRepeatCount:(10)];
     [animation setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut]];
 	
 	[[theWindow layer] addAnimation:animation forKey:@"SwitchToView1"];

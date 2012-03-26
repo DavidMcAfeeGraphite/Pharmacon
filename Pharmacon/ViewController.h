@@ -2,7 +2,7 @@
 //  ViewController.h
 //  Pharmacon
 //
-//  Created by Sam Vale on 10/03/12.
+//  Created by GRAPHITE on 10/03/12.
 //  Copyright (c) 2012 GRAPHITE All rights reserved.
 
 #import <UIKit/UIKit.h>
@@ -16,6 +16,6 @@
    IBOutlet UIView *Sam;
     UIImageView *myImageView;
 }
--(IBAction)buttonPressed;
+-(IBAction)GRAPHITEBUTTON;
 
 @end

@@ -165,7 +165,6 @@
 		BF1CE8C2150AC68600C497DC /* Pharmacon */ = {
 			isa = PBXGroup;
 			children = (
-				BF1CE8EC150AC75800C497DC /* Pharmacon GRAPHICS PACK v1.0 */,
 				BF1CE8CB150AC68600C497DC /* AppDelegate.h */,
 				BF1CE8CC150AC68600C497DC /* AppDelegate.m */,
 				BF1CE8CE150AC68600C497DC /* MainStoryboard_iPhone.storyboard */,
@@ -188,6 +187,7 @@
 				BF1CE8E1150AC6CB00C497DC /* IMG_3700.png */,
 				BF1CE8E2150AC6CB00C497DC /* IMG_4148.png */,
 				BF1CE8E3150AC6CB00C497DC /* IMG_4439.png */,
+				BF1CE8EC150AC75800C497DC /* Pharmacon GRAPHICS PACK v1.0 */,
 				BF1CE8C3150AC68600C497DC /* Supporting Files */,
 			);
 			path = Pharmacon;

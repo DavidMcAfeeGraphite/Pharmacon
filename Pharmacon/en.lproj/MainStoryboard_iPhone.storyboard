@@ -278,7 +278,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonPressed" destination="2" eventType="touchUpInside" id="SjW-Ed-cb2"/>
+                                    <action selector="GRAPHITEBUTTON" destination="2" eventType="touchUpInside" id="2FA-Uj-N8y"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="b3T-vg-ehN">
@@ -446,7 +446,7 @@
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
-                <relationship kind="action" name="buttonPressed"/>
+                <relationship kind="action" name="GRAPHITEBUTTON"/>
                 <relationship kind="outlet" name="Sam" candidateClass="UIView"/>
                 <relationship kind="outlet" name="button" candidateClass="UIButton"/>
             </relationships>
@@ -457,4 +457,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="lVz-fm-kQA"/>
+    </inferredMetricsTieBreakers>
 </document>
