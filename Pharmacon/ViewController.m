@@ -37,7 +37,8 @@
 	[animation setDuration:0.5];
 	[animation setType:kCATransitionPush];
 	[animation setSubtype:kCATransitionFromLeft];
-	[animation setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut]];
+    [animation setRepeatCount:(10)];
+    [animation setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut]];
 	
 	[[theWindow layer] addAnimation:animation forKey:@"SwitchToView1"];
     
