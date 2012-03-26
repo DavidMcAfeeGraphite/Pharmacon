@@ -192,6 +192,20 @@
             </objects>
             <point key="canvasLocation" x="398" y="-991"/>
         </scene>
+        <!--Credits-->
+        <scene sceneID="qZM-W3-qNk">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B9I-jg-Wbx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="TiN-3H-2Sc" customClass="Credits" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ssy-DB-thq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-108" y="-202"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="5">
             <objects>
@@ -418,21 +432,6 @@
         <image name="pharmaconSettings.png" width="59" height="62"/>
         <image name="pharmaconSettingsHeader.png" width="537" height="107"/>
     </resources>
-    <classes>
-        <class className="About" superclassName="UINavigationController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/About.h"/>
-        </class>
-        <class className="TableView" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/TableView.h"/>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="buttonPressed"/>
-                <relationship kind="outlet" name="button" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <nil key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

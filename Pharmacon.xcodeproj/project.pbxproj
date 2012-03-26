@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BF1B71A015203E5C002AABD8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1B719F15203E5C002AABD8 /* QuartzCore.framework */; };
+		BF1B71A81520533F002AABD8 /* Credits.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1B71A71520533F002AABD8 /* Credits.m */; };
 		BF1CE8BD150AC68600C497DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1CE8BC150AC68600C497DC /* UIKit.framework */; };
 		BF1CE8BF150AC68600C497DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1CE8BE150AC68600C497DC /* Foundation.framework */; };
 		BF1CE8C1150AC68600C497DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1CE8C0150AC68600C497DC /* CoreGraphics.framework */; };
@@ -57,6 +58,8 @@
 
 /* Begin PBXFileReference section */
 		BF1B719F15203E5C002AABD8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BF1B71A61520533E002AABD8 /* Credits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Credits.h; sourceTree = "<group>"; };
+		BF1B71A71520533F002AABD8 /* Credits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Credits.m; sourceTree = "<group>"; };
 		BF1CE8B8150AC68600C497DC /* Pharmacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pharmacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1CE8BC150AC68600C497DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BF1CE8BE150AC68600C497DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -175,6 +178,8 @@
 				BF81D83215157AFE0034B70B /* TableView.m */,
 				BF4AEBFB1515E0E9001A3780 /* About.h */,
 				BF4AEBFC1515E0E9001A3780 /* About.m */,
+				BF1B71A61520533E002AABD8 /* Credits.h */,
+				BF1B71A71520533F002AABD8 /* Credits.m */,
 				BF1CE8DC150AC6CB00C497DC /* IMG_0195.png */,
 				BF1CE8DD150AC6CB00C497DC /* IMG_1656.png */,
 				BF1CE8DE150AC6CB00C497DC /* IMG_2630.png */,
@@ -329,6 +334,7 @@
 				BF81D83015157AC30034B70B /* Results.m in Sources */,
 				BF81D83315157AFE0034B70B /* TableView.m in Sources */,
 				BF4AEBFD1515E0E9001A3780 /* About.m in Sources */,
+				BF1B71A81520533F002AABD8 /* Credits.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

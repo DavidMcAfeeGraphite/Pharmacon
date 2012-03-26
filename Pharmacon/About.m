@@ -7,8 +7,6 @@
 //
 
 #import "About.h"
-#import "QuartzCore/QuartzCore.h"
-
 @interface About ()
 
 @end

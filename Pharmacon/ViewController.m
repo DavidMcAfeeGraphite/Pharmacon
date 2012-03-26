@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "QuartzCore/QuartzCore.h"
-
+#import "Credits.h"
 
 @interface ViewController ()
 
@@ -25,7 +25,7 @@
 	
 	// remove the current view and replace with myView1
 	[currentView removeFromSuperview];
-	//[theWindow addSubview:newView];
+	[theWindow addSubview:Sam];
 	
 	// set up an animation for the transition between the views
 	CATransition *animation = [CATransition animation];
@@ -57,6 +57,21 @@
 
 }
 
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    if (buttonIndex == 0)
+    {
+        [[NSUserDefaults standardUserDefaults]setBool:NO forKey:@"RanBefore"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        
+        exit(0);
+        
+    }
+    else if (buttonIndex == 1)
+    {
+        //reset clicked
+    }
+}
 - (void)viewDidUnload
 {
     [super viewDidUnload];
@@ -71,8 +86,4 @@
         return YES;
     }
 }
--(void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
-exit(0);
-    //need to set boolean to no
-}     
 @end
