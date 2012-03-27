@@ -13,9 +13,9 @@
     
     IBOutlet UIButton *button;
     ViewController *myViewController;
-   IBOutlet UIView *Sam;
-    UIImageView *myImageView;
+    UIView *myImageView;
 }
+
 -(IBAction)GRAPHITEBUTTON;
 
 @end

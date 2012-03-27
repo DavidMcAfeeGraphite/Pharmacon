@@ -418,7 +418,7 @@
 		BF1CE8DA150AC68600C497DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pharmacon/Pharmacon-Prefix.pch";
 				INFOPLIST_FILE = "Pharmacon/Pharmacon-Info.plist";
@@ -431,7 +431,7 @@
 		BF1CE8DB150AC68600C497DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pharmacon/Pharmacon-Prefix.pch";
 				INFOPLIST_FILE = "Pharmacon/Pharmacon-Info.plist";

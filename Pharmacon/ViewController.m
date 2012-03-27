@@ -26,9 +26,6 @@
 	// remove the current view and replace with myView1
 	[currentView removeFromSuperview];
     [theWindow addSubview:myImageView];
-     UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"IMG_0195.png"]];
-     myImageView = imageView;
-     myImageView.frame = CGRectMake(50,50,100,100);
     
      
 	
@@ -53,7 +50,6 @@
     if(!TandC) {
         UIAlertView *alert = [[UIAlertView alloc]
                               initWithTitle:@"Pharmacon Guidelines" message:@"DONT COPY OUT APP DOUCHEBAG!" delegate:self cancelButtonTitle:@"No Thanks"  otherButtonTitles: @"I Agree", nil];        [alert show];
-        [alert release];
         [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"RanBefore"];
         [[NSUserDefaults standardUserDefaults] synchronize];
 
@@ -70,7 +66,6 @@
         [[NSUserDefaults standardUserDefaults] synchronize];
         
         exit(0);
-        [alertView release];
         
     }
     else if (buttonIndex == 1)

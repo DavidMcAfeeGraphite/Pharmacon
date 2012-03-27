@@ -32,7 +32,6 @@
         UIAlertView *alert = [[UIAlertView alloc]
                           initWithTitle:@"Rate The App" message:@"Please Rate the App 5 Stars" delegate:self cancelButtonTitle:@"No Thanks"  otherButtonTitles: @"Rate Now", nil];
     [alert show];
-    [alert release];
     [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"RanBefore"];
     [[NSUserDefaults standardUserDefaults] synchronize];
 

@@ -278,7 +278,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="GRAPHITEBUTTON" destination="2" eventType="touchUpInside" id="2FA-Uj-N8y"/>
+                                    <action selector="GRAPHITEBUTTON" destination="2" eventType="touchUpInside" id="3Y2-dL-nRq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="b3T-vg-ehN">
@@ -457,7 +457,4 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
-    <inferredMetricsTieBreakers>
-        <segue reference="lVz-fm-kQA"/>
-    </inferredMetricsTieBreakers>
 </document>
